@@ -1,4 +1,4 @@
-# Apex Legends
+# The Pixel Wizard
 <br>
 
 ## Prepared by: Thomas Kenny
