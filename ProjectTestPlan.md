@@ -49,9 +49,10 @@
 ## 11.0 Risks/Assumptions
 <br>
 
-## 12.0 Tools 
+## 12.0 Tools
+<br>
 
-# Introduction
+# 1.0 Introduction
 The game that is under testing is called The Pixel Wizard. This game will be a 2D side-scrolling platformer that will be developed for PC and Mobile users. The game is will see the player navigate progressively difficult levels with a wizard type character that uses magic as its form of attack.
 
  ## Functions
