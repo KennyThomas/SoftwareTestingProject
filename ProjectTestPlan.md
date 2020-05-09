@@ -72,4 +72,83 @@ The game that is under testing is called The Pixel Wizard. This game will be a 2
 * If the player presses "Play Game" they will be brought to the first level.
 * If the save game function is implemented, the player can load into the the last save point by pressing "Load Game".
 * Player can change sound level for the game in the settings.
+<br>
 
+# 2.0 OBJECTIVES AND TASKS
+
+## 2.1 Objectives
+Each task will be handled by teams made up of three, these tasks will be outlined in section 2.2.<br> Each team will be responsible for there own task.<br> Due to Covid-19 meetings will be held on a zoom call on Thursdays at 1:00 pm.<br> We will also be using Github to track the progress of our testing. Each member will be added as a contributor. <br> We have agreed to a service-level agreement to deliver this test plan to Game Development International Ltd by the 14th of May 2020.
+
+## 2.2 Tasks
+###  Tasks include 
+   * Testing  - includes unit testing , system and integration testing , performance and stress testing.
+   * Post-Testing - includes user Acceptance Testing.
+   * Problem reporting - includes incident reports and summary reports.
+  <br>
+ 
+# 3.0 Scope
+
+## General
+We will be mainly focusing on certain aspects of the game to test.<br>
+These include.. 
+
+### In Game
+* Player spawn is correct not glitching.
+* Player movement is working correctly.
+* Player's attack is working and can defeat the enemies.
+* Enemies are not to overpowered on levels so the player can progress. 
+* Enemies's are spawning in correct locations.
+* Enemies are getting harder to defeat when the player progresses.
+* Health pickups increase the players health. 
+* Player must stay inbound of the screen.
+* Game is easy to understand and learn if a new player attempts the game.
+* Hit box for player and enemy are correct , only takes damage if they enemy/player s directly hit.
+* Pause menu working with player being allowed to change settings, exit level , restart the game and save game.
+
+### Menu
+* Once the player presses "Play Game" they are brought to the first level.
+* Player can change the sound via the settings.
+* If they wish to load the game it lets them choose which save game they would like to play.
+* Option to delete game, once button is pressed the chosen game is deleted. 
+* Exit game button closes the game.
+
+## Tactics
+Since we have four teams, two teams will take in game testing and two teams will take menu testing. We will also use User Acceptance Testing. Each team will have three to four days to test with meetings everyday between teams. The overall meeting will on Thursdays at 1:00 pm where we will all discuss progress made. After every feature is tested we will write a report on what worked/didn't work. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
