@@ -113,7 +113,20 @@ These include..
 * Exit game button closes the game.
 
 ## Tactics
-Since we have four teams, two teams will take in game testing and two teams will take menu testing. We will also use User Acceptance Testing. Each team will have three to four days to test with meetings everyday between teams. The overall meeting will on Thursdays at 1:00 pm where we will all discuss progress made. After every feature is tested we will write a report on what worked/didn't work. 
+Since we have four teams, two teams will take in game testing and two teams will take menu testing. We will also use User Acceptance Testing. Each team will have three to four days to test with meetings everyday between teams. The overall meeting will be on Thursdays at 1:00 pm where we will all discuss progress made. After every feature is tested we will write a report on what worked/didn't work. 
+
+# 4.0 TESTING STRATEGY 
+We will ensure that this product is tested thoroughly. Since we have the product split into two parts testing can be finished more smoothly.<br>
+With 4 teams taking on in game testing and menu testing we can assure that this product is adequately tested.<br>
+User acceptance testing will be a big factor in this product. We will need to make sure this product is easy for a new player to pick up and play straight away. We will perform this test 3/4 times to make sure we have multiple sets of data on what could improve.
+We will be using the following testing strategies to ensure that we have checked the product works without a chance of fault.
+* Unit Testing
+* System and Integration Testing 
+* Performance and Stress Testing 
+* User Acceptance Testing
+* Batch Testing 
+* Automated Regression Testing 
+* Beta Testing
 
 
 
