@@ -128,9 +128,58 @@ We will be using the following testing strategies to ensure that we have checked
 * Automated Regression Testing 
 * Beta Testing
 
+## 4.1 Unit Testing 
+### Definition
 
 
 
+
+
+### Participants
+
+
+
+
+
+
+### Methodology
+
+
+
+
+
+
+## 4.2 System and Integration Testing
+### Definition
+
+
+
+
+
+### Participants
+
+
+
+
+
+
+### Methodology
+
+## 4.3 Performance and Stress Testing 
+### Definition
+
+
+
+
+
+### Participants
+
+
+
+
+
+
+### Methodology
 
 
 
