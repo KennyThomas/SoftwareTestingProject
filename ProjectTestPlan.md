@@ -167,7 +167,7 @@ We wll conduct this testing by seeing how these components behave with eachother
 * If the enemy gets hit the enemy will disappear. 
 * If the player picks up a pickup then the health will go up by one.
 * We need to see if the pause menu works correctly with the in game. If the navigation is working correclty the menu should be working. 
-   
+* Also we need to make sure when the player loads a save game they are brought to the right game.
 
 
 
@@ -175,19 +175,41 @@ We wll conduct this testing by seeing how these components behave with eachother
 
 ## 4.3 Performance and Stress Testing 
 ### Definition
+This is testing to be carried out to check the system's performance under varying loads.<br> Stress testing is carried out by testing the behavior of the system under the sudden increase load. This needs to be carried out to make sure the game wont crash or get glitches if the system is stressed. We also need to check the point at which the game will crash to make sure it does not happen when it is released.
 
 
 
 
 
 ### Participants
-
+Performance Test Engineer
 
 
 
 
 
 ### Methodology
+We will use an outside Performance Test Engineer to conduct this testing phase to make sure it is tested without inside bias towards the game. This phase needs to be carried to make sure that game will not crash suddenly under stress. This needs to be done to make sure enemies spawning and shooting does not slow down. For the more difficult levels this testing is required to make sure when multiple enemies are shooting at the player the game will still perform perfectly. If we find that the game slows down we can adjust the fire rate or the amount of enemies that are spawned.
+
+
+
+## 4.4 User Acceptance Testing 
+### Definition
+User Acceptance Testing is needed to make sure that the system is ready for operational use. We also need this phase of testing to make sure the game has met all the requiremnts that were set out at the start.
+
+
+
+
+### Participants
+Users <br>
+Mary Brown <br>
+Thomas Kenny 
+
+
+
+
+### Methodology
+We have chosen two userrs to test the game. We did this to make sure we have different feedback. This testing will be conducted by letting them play the game without prior knowledge to the game. This is required to make sure the game is easy to understand and play. We can also make sure we have met all requirements that were set out at the start. From the feedback if the controls or layout of the game is hard to understand we will be able to tweak the game so it will be more suitable when it is released.
 
 
 
@@ -195,6 +217,42 @@ We wll conduct this testing by seeing how these components behave with eachother
 
 
 
+## 4.5 Batch Testing
+### Definition
+This phase of testing is done to test multiple parts to make sure they all work. We execute the scripts one at a time with the other scripts waiting till the previous one is complete. These tests are then shown on a graph so we can view the results.
+
+
+
+
+### Participants
+Test engineers
+
+
+
+### Methodology
+
+This testing is required to show the how accurate the game is by running it multiple times. If the game repeatedly fails at a certain location we can find the bug and fix it. This testing it make sure the game can run multiple times without having to worry about it crashing.  
+
+
+
+
+
+## 4.6 Automated Regression Testing 
+### Definition
+This testing is performed to make sure that recent changes or bug fixes do not break or affect existing features that work.
+
+
+
+
+### Participants
+
+software quality assurance team
+
+
+
+
+### Methodology
+After user acceptance testing and stress testing there will have been changes added in to the game. These changes might have been small or they could have been a major change. This phase of testing is required to make sure that these changes have not affected working features. This testing is carried out by the software quality assurance team.
 
 
 
@@ -202,16 +260,19 @@ We wll conduct this testing by seeing how these components behave with eachother
 
 
 
+## 4.7 Beta Testing 
+
+### Definition
+
+This is the final stage of testing. We will distribute the game to individual users outside of the company for a period of time. 
 
 
 
+### Participants
+Users
 
-
-
-
-
-
-
+### Methodology
+This is one of the important phases of testing. If the beta is successful we can release the game for use. During the game we can monitor the feedback that we are given. The feedback can give us an insight into small tweaks we can fix with the game.
 
 
 
