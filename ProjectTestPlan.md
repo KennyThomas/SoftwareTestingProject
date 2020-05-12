@@ -130,20 +130,19 @@ We will be using the following testing strategies to ensure that we have checked
 
 ## 4.1 Unit Testing 
 ### Definition
-
-
-
+Testing will be started with unit testing. 
+We will first look at the requirements we are given and break these up into smaller components to test.<br> Rather then testing big parts at once if we focus on smaller components it will make life easier. By doing unit testing we can identify early the components that are working and not working. If we catch any bugs early it will make the testing phase run smoother and cheaper.<br>
 
 
 ### Participants
-
-
-
-
+Developers <br>
+John <br>
+Mary <br>
+Thomas <br>
 
 
 ### Methodology
-
+We will start of testing the navigation of the game.<br> We will see if the player can navigate between pages for example, can the player go from the menu to settings or from menu to the game. Once this is finished it will make testing the other parts much easier.<br> After this we will look at the in game features. We want to make sure that the assests have the correct z coordinates. This needs to be checked to make sure no parts are overlapping.<br> Also we need to test if the player can shoot, once this is complete then hit detection will be the focus. We can use log statements to check if the hit detection is working. Once we have the player shooting we can then test the enemies. We will need to make sure that the enemies are firing with a break inbetween. This needs to be done to make sure the enemies are not shooting constantly to give the player a fair chance. We can also test to make sure the health system is working and displaying. This can be only be done if the hit detection is working first. The health pickups need to be tested also. The pickups need to spawned after a certain period of time. We also need to test if the pause menu and see if it works if the player presses the pause button.Thomas will write the test scripts for unit testing.
 
 
 
@@ -151,19 +150,28 @@ We will be using the following testing strategies to ensure that we have checked
 
 ## 4.2 System and Integration Testing
 ### Definition
-
-
-
+System and Integration Testing is vital for this game. We need to make sure that all the separate components we have tested are working together. With this testing we can see the behavior between components, if this is done correclty we can view what components need to be tuned down or turned up. 
 
 
 ### Participants
-
-
-
-
-
+Testers <br>
+Joe <br>
+Sarah <br>
+Jack <br> 
 
 ### Methodology
+We wll conduct this testing by seeing how these components behave with eachother. 
+* We will first look at can the player go from the menu straight into the game and the game starts.
+* If this is working we can then see if the combat between the player and enemy is working. 
+* If the player gets hit a heart will disappear. 
+* If the enemy gets hit the enemy will disappear. 
+* If the player picks up a pickup then the health will go up by one.
+* We need to see if the pause menu works correctly with the in game. If the navigation is working correclty the menu should be working. 
+   
+
+
+
+
 
 ## 4.3 Performance and Stress Testing 
 ### Definition
