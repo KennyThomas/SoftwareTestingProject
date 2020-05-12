@@ -255,11 +255,6 @@ software quality assurance team
 After user acceptance testing and stress testing there will have been changes added in to the game. These changes might have been small or they could have been a major change. This phase of testing is required to make sure that these changes have not affected working features. This testing is carried out by the software quality assurance team.
 
 
-
-
-
-
-
 ## 4.7 Beta Testing 
 
 ### Definition
@@ -275,11 +270,39 @@ Users
 This is one of the important phases of testing. If the beta is successful we can release the game for use. During the game we can monitor the feedback that we are given. The feedback can give us an insight into small tweaks we can fix with the game.
 
 
+# 5.0 TEST SCHEDULE
+  Times are estimated
+  <br>
+* Planning - 3 days
+* Unit Testing - 2 days
+* meeting - 1 day
+* System and Integration Testing - 3 days
+* meeting - 1 day
+* Performance and Stress Testing - 2 days
+* User Acceptance Testing - 1 day 
+* meeting - 1 day
+* Batch Testing - 2 days
+* Automated Regression Testing - 1 day 
+* meeting - 1 day
+* Beta Testing - 4 days
+* meeting - 1 day
+
+### Resouces
+* Facilities - 30 days 
+* Tools - 30 days
+* staff - 30 days 
 
 
+#  6.0 CONTROL PROCEDURES
+
+## Problem Reporting 
+If a problem occurs in the testing phase of the game we can log these incidents. This is done so we can keep a record of what the incident was, what the problem caused and what was done to fix it. This is helpfull to keep logs of these problems incase the same problem has occures it will be easy to fix as we have a log of the previous incident.
+
+## Change Requests 
+If a change needs to happen it first has to be signed of by the Test Leader. The modification has to pass certain criteria to be added to the game. For example what the change is, how big is the change, will it affect another feature and is it a required change. 
+If we the change does affect existing code it will go through Automated Regression Testing to fix the issue.
 
 
-
-
+# 7.0 FEATURES TO BE TESTED
 
    
