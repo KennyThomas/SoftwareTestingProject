@@ -249,8 +249,6 @@ This testing is performed to make sure that recent changes or bug fixes do not b
 software quality assurance team
 
 
-
-
 ### Methodology
 After user acceptance testing and stress testing there will have been changes added in to the game. These changes might have been small or they could have been a major change. This phase of testing is required to make sure that these changes have not affected working features. This testing is carried out by the software quality assurance team.
 
@@ -300,9 +298,56 @@ If a problem occurs in the testing phase of the game we can log these incidents.
 
 ## Change Requests 
 If a change needs to happen it first has to be signed of by the Test Leader. The modification has to pass certain criteria to be added to the game. For example what the change is, how big is the change, will it affect another feature and is it a required change. 
-If we the change does affect existing code it will go through Automated Regression Testing to fix the issue.
+If the change does affect existing code it will go through Automated Regression Testing to fix the issue.
 
 
 # 7.0 FEATURES TO BE TESTED
+* Navigation 
+* Player mechanics 
+* Enemy mechanics
+* Menu functionality
+* Pause Menu functionality
+* Sound option 
+* Health system
+* Score system
+* Pickups
+* Level difficulty change
+* Save/Load game
 
-   
+
+# 8.0 FEATURES NOT TO BE TESTED
+* Art Assests - Already designed and made.
+* Sound clips - Already made and got from asset store.
+
+# 9.0 RESOURCES/ROLES & RESPONSIBILITIES 
+* Unit Testing - John (developer) , Mary (developer) , Thomas (developer) 
+* System and Integration Testing - Joe (Testers) , Sarah (Testers) , Jack (Testers) 
+* Performance and Stress Testing -  Sarah(Performance Test Engineer) 
+* User Acceptance Testing - Mary Brown (User) , Thomas Kenny (User)
+* Batch Testing - paul(Test engineer) , John(Test engineer)
+* Automated Regression Testing - software quality assurance team
+* Beta Testing - Users
+* Managing - Test Leader
+* Designing - developers  
+* Preparing - operations staff
+* Executing - testing services , developers
+
+
+# 10.0 SCHEDULES
+* Test Plan
+* Test Cases
+* Test Incident Reports
+* Test Summary Reports 
+
+# 11.0 RISKS/ASSUMPTIONS
+If we do not meet deadlines there will have to be a increase in work to get back on track with the deadline . Unit testing and System and Integration Testing needs to be finished on time or else it will hold up the rest of the tests phases. If these are held up the required time will not be met. 
+
+# 12.0 TOOLS
+### Automation tools
+* Katalon Studio
+* UFT One
+* Ranorex
+
+### Bug Tracking tool
+* monday.com
+
