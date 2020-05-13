@@ -102,7 +102,7 @@ These include.
 * Health pickups increase the players health. 
 * Player must stay inbound of the screen.
 * Game is easy to understand and learn if a new player attempts the game.
-* Hit box for player and enemy are correct, only takes damage if they enemy/player s directly hit.
+* Hit box for player and enemy are correct, only takes damage if they enemy/player is directly hit.
 * Pause menu working with player being allowed to change settings, exit level, restart the game, and save game.
 
 ### Menu
@@ -142,7 +142,7 @@ Thomas <br>
 
 
 ### Methodology
-We will start of testing the navigation of the game.<br> We will see if the player can navigate between pages for example, can the player go from the menu to settings or from menu to the game. Once this is finished it will make testing the other parts much easier.<br> After this we will look at the in game features. We want to make sure that the assests have the correct z coordinates. This needs to be checked to make sure no parts are overlapping.<br> Also we need to test if the player can shoot, once this is complete then hit detection will be the focus. We can use log statements to check if the hit detection is working. Once we have the player shooting we can then test the enemies. We will need to make sure that the enemies are firing with a break inbetween. This needs to be done to make sure the enemies are not shooting constantly to give the player a fair chance. We can also test to make sure the health system is working and displaying. This can be only be done if the hit detection is working first. The health pickups need to be tested also. The pickups need to spawned after a certain period of time. We also need to test if the pause menu and see if it works if the player presses the pause button.Thomas will write the test scripts for unit testing.
+We will start of testing the navigation of the game.<br> We will see if the player can navigate between pages for example, can the player go from the menu to settings or from menu to the game. Once this is finished it will make testing the other parts much easier.<br> After this we will look at the in game features. We want to make sure that the assests have the correct z coordinates. This needs to be checked to make sure no parts are overlapping.<br> Also we need to test if the player can shoot, once this is complete then hit detection will be the focus. We can use log statements to check if the hit detection is working. Once we have the player shooting we can then test the enemies. We will need to make sure that the enemies are firing with a break inbetween. This needs to be done to make sure the enemies are not shooting constantly to give the player a fair chance. We can also test to make sure the health system is working and displaying. This can only be done if the hit detection is working first. The health pickups need to be tested also. The pickups need to spawned after a certain period of time. We also need to test the pause menu and see if it works, if the player presses the pause button. Thomas will write the test scripts for unit testing.
 
 
 ## 4.2 System and Integration Testing
@@ -163,7 +163,7 @@ We wll conduct this testing by seeing how these components behave with eachother
 * If the player gets hit a heart will disappear. 
 * If the enemy gets hit the enemy will disappear. 
 * If the player picks up a pickup then the health will go up by one.
-* We need to see if the pause menu works correctly with the in game. If the navigation is working correclty the menu should be working. 
+* We need to see if the pause menu works correctly with the game. If the navigation is working correclty the menu should be working. 
 * Also we need to make sure when the player loads a save game they are brought to the right game.
 
 ## 4.3 Performance and Stress Testing 
@@ -174,7 +174,7 @@ This is testing to be carried out to check the system's performance under varyin
 Performance Test Engineer
 
 ### Methodology
-We will use an outside Performance Test Engineer to conduct this testing phase to make sure it is tested without inside bias towards the game. This phase needs to be carried to make sure that game will not crash suddenly under stress. This needs to be done to make sure enemies spawning and shooting does not slow down. For the more difficult levels this testing is required to make sure when multiple enemies are shooting at the player the game will still perform perfectly. If we find that the game slows down, we can adjust the fire rate or the number of enemies that are spawned.
+We will use an outside Performance Test Engineer to conduct this testing phase to make sure it is tested without inside bias towards the game. This phase needs to be carried to make sure that game will not crash suddenly under stress. This needs to be done to make sure enemies spawning and shooting does not slow down the game. For the more difficult levels this testing is required to make sure when multiple enemies are shooting at the player the game will still perform perfectly. If we find that the game slows down, we can adjust the fire rate or the number of enemies that are spawned.
 
 
 
@@ -233,17 +233,17 @@ This is one of the important phases of testing. If the beta is successful, we ca
   <br>
 * Planning - 3 days
 * Unit Testing - 2 days
-* meeting - 1 day
+* Meeting - 1 day
 * System and Integration Testing - 3 days
-* meeting - 1 day
+* Meeting - 1 day
 * Performance and Stress Testing - 2 days
 * User Acceptance Testing - 1 day 
-* meeting - 1 day
+* Meeting - 1 day
 * Batch Testing - 2 days
 * Automated Regression Testing - 1 day 
-* meeting - 1 day
+* Meeting - 1 day
 * Beta Testing - 4 days
-* meeting - 1 day
+* Meeting - 1 day
 
 ### Resources
 * Facilities - 30 days 
@@ -254,7 +254,7 @@ This is one of the important phases of testing. If the beta is successful, we ca
 #  6.0 CONTROL PROCEDURES
 
 ## Problem Reporting 
-If a problem occurs in the testing phase of the game we can log these incidents. This is done so we can keep a record of what the incident was, what the problem caused and what was done to fix it. This is helpful to keep logs of these problems in case the same problem has occurs it will be easy to fix as we have a log of the previous incident.
+If a problem occurs in the testing phase of the game we can log these incidents. This is done so we can keep a record of what the incident was, what the problem caused and what was done to fix it. This is helpful to keep logs of these problems in case the same problem has occured. It will be easy to fix the problem as we have a log of the previous incident.
 
 ## Change Requests 
 If a change needs to happen it first has to be signed off by the Test Leader. The modification must pass certain criteria to be added to the game. For example, what the change is, how big is the change, will it affect another feature and is it a required change. 
@@ -300,7 +300,7 @@ If the change does affect existing code it will go through Automated Regression 
 * Test Summary Reports 
 
 # 11.0 RISKS/ASSUMPTIONS
-If we do not meet deadlines there will have to be a increase in work to get back on track with the deadline. Unit testing and System and Integration Testing needs to be finished on time or else it will hold up the rest of the tests phases. If these are held up the required time will not be met. 
+If we do not meet deadlines there will have to be a increase in work to get back on track with the deadline. Unit testing and System and Integration Testing needs to be finished on time or else it will hold up the rest of the tests phases. If these phases are held up the required time will not be met. We also need to make sure that we are looking at the requirements closely to make sure we have followed what the company has asked us too.
 
 # 12.0 TOOLS
 ### Automation tools
