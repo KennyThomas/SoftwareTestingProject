@@ -58,17 +58,17 @@ The game that is under testing is called The Pixel Wizard. This game will be a 2
  ## Functions
  
  ### In Game
-* There will have atleast three levels.
+* There will have at least three levels.
 * Each level will have several enemies.
-* Also a boss that the player will have to defeat to progress. 
-* Each level will also have pickups that the player can collect to replenish the players's health.
+* Also, a boss that the player will have to defeat to progress. 
+* Each level will also have pickups that the player can collect to replenish the players health.
 * The game will use generic controls, these controls include using the mouse left click to attack, arrow keys and ASWD to move or     onscreen arrows for mobile users. 
 * The user will be able to pause the game at any moment using the space button or for mobile players a button.
-* From the pause menu the player can save the game , exit the game , restart the game or go to settings.
+* From the pause menu the player can save the game, exit the game, restart the game, or go to settings.
 * Player can adjust the sound from the settings.
 
 ### Menu
-* From  the main menu the player can choose options such as "Play Game" , "Settings" , "Load Game" , "Delete Game" and "Exit Game".
+* From the main menu the player can choose options such as "Play Game", "Settings" , "Load Game" , "Delete Game" and "Exit Game".
 * If the player presses "Play Game" they will be brought to the first level.
 * If the save game function is implemented, the player can load into the the last save point by pressing "Load Game".
 * Player can change sound level for the game in the settings.
@@ -77,7 +77,7 @@ The game that is under testing is called The Pixel Wizard. This game will be a 2
 # 2.0 OBJECTIVES AND TASKS
 
 ## 2.1 Objectives
-Each task will be handled by teams made up of three, these tasks will be outlined in section 2.2.<br> Each team will be responsible for there own task.<br> Due to Covid-19 meetings will be held on a zoom call on Thursdays at 1:00 pm.<br> We will also be using Github to track the progress of our testing. Each member will be added as a contributor. <br> We have agreed to a service-level agreement to deliver this test plan to Game Development International Ltd by the 14th of May 2020.
+Each task will be handled by teams made up of three, these tasks will be outlined in section 2.2.<br> Each team will be responsible for their own task.<br> Due to Covid-19 meetings will be held on a zoom call on Thursdays at 1:00 pm.<br> We will also be using Github to track the progress of our testing. Each member will be added as a contributor. <br> We have agreed to a service-level agreement to deliver this test plan to Game Development International Ltd by the 14th of May 2020.
 
 ## 2.2 Tasks
 ###  Tasks include 
@@ -90,20 +90,20 @@ Each task will be handled by teams made up of three, these tasks will be outline
 
 ## General
 We will be mainly focusing on certain aspects of the game to test.<br>
-These include.. 
+These include.
 
 ### In Game
 * Player spawn is correct not glitching.
 * Player movement is working correctly.
 * Player's attack is working and can defeat the enemies.
 * Enemies are not to overpowered on levels so the player can progress. 
-* Enemies's are spawning in correct locations.
+* Enemies are spawning in correct locations.
 * Enemies are getting harder to defeat when the player progresses.
 * Health pickups increase the players health. 
 * Player must stay inbound of the screen.
 * Game is easy to understand and learn if a new player attempts the game.
-* Hit box for player and enemy are correct , only takes damage if they enemy/player s directly hit.
-* Pause menu working with player being allowed to change settings, exit level , restart the game and save game.
+* Hit box for player and enemy are correct, only takes damage if they enemy/player s directly hit.
+* Pause menu working with player being allowed to change settings, exit level, restart the game, and save game.
 
 ### Menu
 * Once the player presses "Play Game" they are brought to the first level.
@@ -131,7 +131,7 @@ We will be using the following testing strategies to ensure that we have checked
 ## 4.1 Unit Testing 
 ### Definition
 Testing will be started with unit testing. 
-We will first look at the requirements we are given and break these up into smaller components to test.<br> Rather then testing big parts at once if we focus on smaller components it will make life easier. By doing unit testing we can identify early the components that are working and not working. If we catch any bugs early it will make the testing phase run smoother and cheaper.<br>
+We will first look at the requirements we are given and break these up into smaller components to test.<br> Rather than testing big parts at once if we focus on smaller components it will make life easier. By doing unit testing we can identify early the components that are working and not working. If we catch any bugs early it will make the testing phase run smoother and cheaper.<br>
 
 
 ### Participants
@@ -143,9 +143,6 @@ Thomas <br>
 
 ### Methodology
 We will start of testing the navigation of the game.<br> We will see if the player can navigate between pages for example, can the player go from the menu to settings or from menu to the game. Once this is finished it will make testing the other parts much easier.<br> After this we will look at the in game features. We want to make sure that the assests have the correct z coordinates. This needs to be checked to make sure no parts are overlapping.<br> Also we need to test if the player can shoot, once this is complete then hit detection will be the focus. We can use log statements to check if the hit detection is working. Once we have the player shooting we can then test the enemies. We will need to make sure that the enemies are firing with a break inbetween. This needs to be done to make sure the enemies are not shooting constantly to give the player a fair chance. We can also test to make sure the health system is working and displaying. This can be only be done if the hit detection is working first. The health pickups need to be tested also. The pickups need to spawned after a certain period of time. We also need to test if the pause menu and see if it works if the player presses the pause button.Thomas will write the test scripts for unit testing.
-
-
-
 
 
 ## 4.2 System and Integration Testing
@@ -162,95 +159,60 @@ Jack <br>
 ### Methodology
 We wll conduct this testing by seeing how these components behave with eachother. 
 * We will first look at can the player go from the menu straight into the game and the game starts.
-* If this is working we can then see if the combat between the player and enemy is working. 
+* If this is working, we can then see if the combat between the player and enemy is working. 
 * If the player gets hit a heart will disappear. 
 * If the enemy gets hit the enemy will disappear. 
 * If the player picks up a pickup then the health will go up by one.
 * We need to see if the pause menu works correctly with the in game. If the navigation is working correclty the menu should be working. 
 * Also we need to make sure when the player loads a save game they are brought to the right game.
 
-
-
-
-
 ## 4.3 Performance and Stress Testing 
 ### Definition
-This is testing to be carried out to check the system's performance under varying loads.<br> Stress testing is carried out by testing the behavior of the system under the sudden increase load. This needs to be carried out to make sure the game wont crash or get glitches if the system is stressed. We also need to check the point at which the game will crash to make sure it does not happen when it is released.
-
-
-
-
+This is testing to be carried out to check the system's performance under varying loads.<br> Stress testing is carried out by testing the behaviour of the system under the sudden increase load. This needs to be carried out to make sure the game wont crash or get glitches if the system is stressed. We also need to check the point at which the game will crash to make sure it does not happen when it is released.
 
 ### Participants
 Performance Test Engineer
 
-
-
-
-
 ### Methodology
-We will use an outside Performance Test Engineer to conduct this testing phase to make sure it is tested without inside bias towards the game. This phase needs to be carried to make sure that game will not crash suddenly under stress. This needs to be done to make sure enemies spawning and shooting does not slow down. For the more difficult levels this testing is required to make sure when multiple enemies are shooting at the player the game will still perform perfectly. If we find that the game slows down we can adjust the fire rate or the amount of enemies that are spawned.
+We will use an outside Performance Test Engineer to conduct this testing phase to make sure it is tested without inside bias towards the game. This phase needs to be carried to make sure that game will not crash suddenly under stress. This needs to be done to make sure enemies spawning and shooting does not slow down. For the more difficult levels this testing is required to make sure when multiple enemies are shooting at the player the game will still perform perfectly. If we find that the game slows down, we can adjust the fire rate or the number of enemies that are spawned.
 
 
 
 ## 4.4 User Acceptance Testing 
 ### Definition
-User Acceptance Testing is needed to make sure that the system is ready for operational use. We also need this phase of testing to make sure the game has met all the requiremnts that were set out at the start.
-
-
-
+User Acceptance Testing is needed to make sure that the system is ready for operational use. We also need this phase of testing to make sure the game has met all the requirements that were set out at the start.
 
 ### Participants
 Users <br>
 Mary Brown <br>
 Thomas Kenny 
 
-
-
-
 ### Methodology
-We have chosen two userrs to test the game. We did this to make sure we have different feedback. This testing will be conducted by letting them play the game without prior knowledge to the game. This is required to make sure the game is easy to understand and play. We can also make sure we have met all requirements that were set out at the start. From the feedback if the controls or layout of the game is hard to understand we will be able to tweak the game so it will be more suitable when it is released.
-
-
-
-
-
+We have chosen two users to test the game. We did this to make sure we have different feedback. This testing will be conducted by letting them play the game without prior knowledge to the game. This is required to make sure the game is easy to understand and play. We can also make sure we have met all requirements that were set out at the start. From the feedback if the controls or layout of the game is hard to understand we will be able to tweak the game so it will be more suitable when it is released.
 
 
 ## 4.5 Batch Testing
 ### Definition
 This phase of testing is done to test multiple parts to make sure they all work. We execute the scripts one at a time with the other scripts waiting till the previous one is complete. These tests are then shown on a graph so we can view the results.
 
-
-
-
 ### Participants
 Test engineers
 
-
-
 ### Methodology
 
-This testing is required to show the how accurate the game is by running it multiple times. If the game repeatedly fails at a certain location we can find the bug and fix it. This testing it make sure the game can run multiple times without having to worry about it crashing.  
-
-
-
+This testing is required to show the how accurate the game is by running it multiple times. If the game repeatedly fails at a certain location, we can find the bug and fix it. This testing it make sure the game can run multiple times without having to worry about it crashing.  
 
 
 ## 4.6 Automated Regression Testing 
 ### Definition
 This testing is performed to make sure that recent changes or bug fixes do not break or affect existing features that work.
 
-
-
-
 ### Participants
 
 software quality assurance team
 
-
 ### Methodology
-After user acceptance testing and stress testing there will have been changes added in to the game. These changes might have been small or they could have been a major change. This phase of testing is required to make sure that these changes have not affected working features. This testing is carried out by the software quality assurance team.
+After user acceptance testing and stress testing there will have been changes added into the game. These changes might have been small, or they could have been a major change. This phase of testing is required to make sure that these changes have not affected working features. This testing is carried out by the software quality assurance team.
 
 
 ## 4.7 Beta Testing 
@@ -259,13 +221,11 @@ After user acceptance testing and stress testing there will have been changes ad
 
 This is the final stage of testing. We will distribute the game to individual users outside of the company for a period of time. 
 
-
-
 ### Participants
 Users
 
 ### Methodology
-This is one of the important phases of testing. If the beta is successful we can release the game for use. During the game we can monitor the feedback that we are given. The feedback can give us an insight into small tweaks we can fix with the game.
+This is one of the important phases of testing. If the beta is successful, we can release the game for use. During the game we can monitor the feedback that we are given. The feedback can give us an insight into small tweaks we can fix with the game.
 
 
 # 5.0 TEST SCHEDULE
@@ -285,7 +245,7 @@ This is one of the important phases of testing. If the beta is successful we can
 * Beta Testing - 4 days
 * meeting - 1 day
 
-### Resouces
+### Resources
 * Facilities - 30 days 
 * Tools - 30 days
 * staff - 30 days 
@@ -294,10 +254,10 @@ This is one of the important phases of testing. If the beta is successful we can
 #  6.0 CONTROL PROCEDURES
 
 ## Problem Reporting 
-If a problem occurs in the testing phase of the game we can log these incidents. This is done so we can keep a record of what the incident was, what the problem caused and what was done to fix it. This is helpfull to keep logs of these problems incase the same problem has occures it will be easy to fix as we have a log of the previous incident.
+If a problem occurs in the testing phase of the game we can log these incidents. This is done so we can keep a record of what the incident was, what the problem caused and what was done to fix it. This is helpful to keep logs of these problems in case the same problem has occurs it will be easy to fix as we have a log of the previous incident.
 
 ## Change Requests 
-If a change needs to happen it first has to be signed of by the Test Leader. The modification has to pass certain criteria to be added to the game. For example what the change is, how big is the change, will it affect another feature and is it a required change. 
+If a change needs to happen it first has to be signed off by the Test Leader. The modification must pass certain criteria to be added to the game. For example, what the change is, how big is the change, will it affect another feature and is it a required change. 
 If the change does affect existing code it will go through Automated Regression Testing to fix the issue.
 
 
@@ -316,15 +276,15 @@ If the change does affect existing code it will go through Automated Regression 
 
 
 # 8.0 FEATURES NOT TO BE TESTED
-* Art Assests - Already designed and made.
+* Art Assets - Already designed and made.
 * Sound clips - Already made and got from asset store.
 
 # 9.0 RESOURCES/ROLES & RESPONSIBILITIES 
 * Unit Testing - John (developer) , Mary (developer) , Thomas (developer) 
 * System and Integration Testing - Joe (Testers) , Sarah (Testers) , Jack (Testers) 
-* Performance and Stress Testing -  Sarah(Performance Test Engineer) 
+* Performance and Stress Testing - Sarah(Performance Test Engineer) 
 * User Acceptance Testing - Mary Brown (User) , Thomas Kenny (User)
-* Batch Testing - paul(Test engineer) , John(Test engineer)
+* Batch Testing - Paul(Test engineer) , John(Test engineer)
 * Automated Regression Testing - software quality assurance team
 * Beta Testing - Users
 * Managing - Test Leader
@@ -340,7 +300,7 @@ If the change does affect existing code it will go through Automated Regression 
 * Test Summary Reports 
 
 # 11.0 RISKS/ASSUMPTIONS
-If we do not meet deadlines there will have to be a increase in work to get back on track with the deadline . Unit testing and System and Integration Testing needs to be finished on time or else it will hold up the rest of the tests phases. If these are held up the required time will not be met. 
+If we do not meet deadlines there will have to be a increase in work to get back on track with the deadline. Unit testing and System and Integration Testing needs to be finished on time or else it will hold up the rest of the tests phases. If these are held up the required time will not be met. 
 
 # 12.0 TOOLS
 ### Automation tools
